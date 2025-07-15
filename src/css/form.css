@@ -1,0 +1,55 @@
+.feedback-form {
+  max-width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.submit-form-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.label-form {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.input-email {
+  display: block;
+  width: 355px;
+  height: auto;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.inp-text {
+  width: 355px;
+  resize: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.input-email:hover,
+.input-email:focus {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.inp-text:hover,
+.inp-text:focus {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.submit-form-btn:hover,
+.submit-form-btn:focus {
+  background-color: #6c8cff;
+}

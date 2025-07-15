@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">Повернутися на головну</a>
+        <h1 class="main-title">Форма зв'язку</h1>
+      </div>
+      <form class="feedback-form js-form" autocomplete="off">
+        <label class="label-form">
+          Email
+          <input class="input-email" type="email" name="email" autofocus />
+        </label>
+        <label class="label-form">
+          Message
+          <textarea class="inp-text" name="message" rows="8"></textarea>
+        </label>
+        <button class="submit-form-btn" type="submit">Submit</button>
+      </form>
+    </main>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
