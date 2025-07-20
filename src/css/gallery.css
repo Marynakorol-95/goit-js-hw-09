@@ -1,0 +1,18 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: center;
+}
+.gallery-image {
+  width: 360px;
+}
+.wrap-gallery {
+  padding: 24px 156px;
+}
